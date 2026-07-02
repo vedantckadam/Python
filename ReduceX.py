@@ -23,7 +23,7 @@ def main():
 
     print("Data After Map : ",mData)
 
-    rData=list(reduce(Addition,mData))
+    rData=reduce(Addition,mData)
 
     print("Data After Reduce : ",rData)
 
